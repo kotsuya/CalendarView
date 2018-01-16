@@ -12,6 +12,9 @@
 		E1D7B968200D96C10099E27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D7B966200D96C10099E27D /* Main.storyboard */; };
 		E1D7B96A200D96C10099E27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D7B969200D96C10099E27D /* Assets.xcassets */; };
 		E1D7B96D200D96C10099E27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D7B96B200D96C10099E27D /* LaunchScreen.storyboard */; };
+		E1D7B975200D98B50099E27D /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7B974200D98B50099E27D /* CalendarCell.swift */; };
+		E1D7B977200D99C00099E27D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7B976200D99C00099E27D /* DataManager.swift */; };
+		E1D7B979200DAA100099E27D /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7B978200DAA100099E27D /* ExtensionUIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E1D7B969200D96C10099E27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1D7B96C200D96C10099E27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1D7B96E200D96C10099E27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D7B974200D98B50099E27D /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		E1D7B976200D99C00099E27D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E1D7B978200DAA100099E27D /* ExtensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				E1D7B969200D96C10099E27D /* Assets.xcassets */,
 				E1D7B96B200D96C10099E27D /* LaunchScreen.storyboard */,
 				E1D7B96E200D96C10099E27D /* Info.plist */,
+				E1D7B974200D98B50099E27D /* CalendarCell.swift */,
+				E1D7B976200D99C00099E27D /* DataManager.swift */,
+				E1D7B978200DAA100099E27D /* ExtensionUIColor.swift */,
 			);
 			path = CalendarView;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1D7B965200D96C10099E27D /* ViewController.swift in Sources */,
+				E1D7B977200D99C00099E27D /* DataManager.swift in Sources */,
+				E1D7B979200DAA100099E27D /* ExtensionUIColor.swift in Sources */,
+				E1D7B975200D98B50099E27D /* CalendarCell.swift in Sources */,
 				E1D7B963200D96C10099E27D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,10 +287,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UDWJ872ZCN;
+				DEVELOPMENT_TEAM = PCGV2BY5QK;
 				INFOPLIST_FILE = CalendarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eys-style.CalendarView";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kotsuya.CalendarView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,10 +302,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UDWJ872ZCN;
+				DEVELOPMENT_TEAM = PCGV2BY5QK;
 				INFOPLIST_FILE = CalendarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eys-style.CalendarView";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kotsuya.CalendarView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
