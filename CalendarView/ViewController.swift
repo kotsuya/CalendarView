@@ -10,17 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    //branch dev commit
     @IBOutlet weak var headerPrevBtn: UIButton!
     @IBOutlet weak var headerNextBtn: UIButton!
     
-    //bbbb
     @IBOutlet weak var headerTitle: UILabel!
     
     @IBOutlet weak var calenderHeaderView: UIView!
     @IBOutlet weak var calenderCollectionView: UICollectionView!
     
-    //master commit
     let dateManager = DataManager()
     let daysPerWeek: Int = 7
     let cellMargin: CGFloat = 2.0
