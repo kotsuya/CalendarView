@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var calenderHeaderView: UIView!
     @IBOutlet weak var calenderCollectionView: UICollectionView!
     
+    //master commit
     let dateManager = DataManager()
     let daysPerWeek: Int = 7
     let cellMargin: CGFloat = 2.0
