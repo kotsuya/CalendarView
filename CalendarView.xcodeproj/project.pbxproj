@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E19D8137202435E70040221F /* CalendarView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E19D8135202435E70040221F /* CalendarView.xcdatamodeld */; };
 		E1D7B963200D96C10099E27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7B962200D96C10099E27D /* AppDelegate.swift */; };
 		E1D7B965200D96C10099E27D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7B964200D96C10099E27D /* ViewController.swift */; };
 		E1D7B968200D96C10099E27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D7B966200D96C10099E27D /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E19D8136202435E70040221F /* CalendarView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalendarView.xcdatamodel; sourceTree = "<group>"; };
 		E1D7B95F200D96C10099E27D /* CalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D7B962200D96C10099E27D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1D7B964200D96C10099E27D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				E1D7B974200D98B50099E27D /* CalendarCell.swift */,
 				E1D7B976200D99C00099E27D /* DataManager.swift */,
 				E1D7B978200DAA100099E27D /* ExtensionUIColor.swift */,
+				E19D8135202435E70040221F /* CalendarView.xcdatamodeld */,
 			);
 			path = CalendarView;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E19D8137202435E70040221F /* CalendarView.xcdatamodeld in Sources */,
 				E1D7B965200D96C10099E27D /* ViewController.swift in Sources */,
 				E1D7B977200D99C00099E27D /* DataManager.swift in Sources */,
 				E1D7B979200DAA100099E27D /* ExtensionUIColor.swift in Sources */,
@@ -334,6 +338,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E19D8135202435E70040221F /* CalendarView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E19D8136202435E70040221F /* CalendarView.xcdatamodel */,
+			);
+			currentVersion = E19D8136202435E70040221F /* CalendarView.xcdatamodel */;
+			path = CalendarView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E1D7B957200D96C10099E27D /* Project object */;
 }

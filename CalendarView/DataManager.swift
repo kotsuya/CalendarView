@@ -46,6 +46,14 @@ class DataManager: NSObject {
         return formatter.string(from: currentMonthOfDates[indexPath.row] as Date)
     }
     
+    
+    func selectedDateFormat(_ indexPath: IndexPath) -> String {
+        dateForCellAtIndexPath(numberOfItems: numberOfItems)
+        let formatter: DateFormatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        return formatter.string(from: currentMonthOfDates[indexPath.row] as Date)
+    }
+    
     func prevMonth(_ date: Date) -> Date {
         currentMonthOfDates = []
         selectedDate = date.monthAgoDate()
